@@ -143,7 +143,7 @@
         level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，
         <root>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个logger。
     -->
-    <root level="info">
+    <root level="INFO">
         <level>info</level>
         <appender-ref ref="STDOUT"/>
         <!--<appender-ref ref="SQL_INFO"/>
