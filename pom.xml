@@ -18,6 +18,8 @@
         <module>approval</module>
         <module>historyLevel</module>
         <module>event</module>
+        <module>commandInterceptor</module>
+        <module>job-executor</module>
     </modules>
 
     <dependencies>
