@@ -10,6 +10,11 @@
         <property name="jdbcUsername" value="sa"/>
         <property name="jdbcPassword" value=""/>
         <property name="databaseSchemaUpdate" value="create-drop"/>
+        <property name="eventListeners">
+            <list>
+                <bean class="org.avtiviti.practice.JobEventListener"/>
+            </list>
+        </property>
         <!--激活异步执行器-->
         <property name="asyncExecutorActivate" value="true"/>
     </bean>
